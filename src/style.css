@@ -1,7 +1,80 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+body {
+  font-family: "Poppins" sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/842/original/pexels-pacofdezsaura-4171374.jpg?1735748751");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header h1 {
   font-size: 96px;
-  line-height: 144px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #272044;
+  letter-spacing: 3px;
+
+  background-color: white;
+  padding: 16px 32px;
+  display: inline-block;
+  margin-top: 36px;
+  border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 22px;
+  }
+
+  header h3 {
+    font-size: 13px;
+  }
+
+  header a {
+    font-size: 8px;
+    padding: 8px 16px;
+  }
 }
