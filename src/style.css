@@ -7,6 +7,16 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/842/original/pexels-pacofdezsaura-4171374.jpg?1735748751");
@@ -56,7 +66,50 @@ header a {
   border-radius: 6px;
 }
 
-@media (max-width: 900px) {
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.6),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/844/original/cesar-hz-eEtlDXqgrEE-unsplash.jpg?1735753271");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin-right: 35px;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
