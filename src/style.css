@@ -16,18 +16,31 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 .img-responsive {
   max-width: 100%;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: #dce4c9;
 }
 
 header {
@@ -84,10 +97,6 @@ main {
   background-color: #fffaec;
 }
 
-.street-image {
-  size: 50%;
-}
-
 main h2 {
   font-weight: 700;
   font-size: 20px;
@@ -114,6 +123,48 @@ main p {
   line-height: 1.5;
   color: #3d3d3d;
   opacity: 0.7;
+}
+
+.card {
+  background-color: #fffaec;
+  margin: 30px;
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.card-footer {
+  padding: 10px 15px;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+
+.card h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.card a {
+  display: block;
+  background-color: #b59f78;
+  border-radius: 5px;
+  padding: 15px;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 footer {
