@@ -53,6 +53,10 @@ section.secondary h3 {
   padding-bottom: 20px;
 }
 
+section.tertiary h3 {
+  padding-bottom: 30px;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/842/original/pexels-pacofdezsaura-4171374.jpg?1735748751");
